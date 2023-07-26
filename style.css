@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  color: rgb(186, 231, 24);
+}
+p {
+  color: rgb(151, 153, 151);
+}
+hr {
+  border: 5px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgb(228, 181, 183),
+    #10f153,
+    rgb(20, 4, 78),
+    rgb(233, 210, 9),
+    rgb(234, 0, 255)
+  );
+  border-image-slice: 1;
+  border-radius: 20px;
+  margin: 25px;
+  border-radius: 2px;
+}
+.name-highlight {
+  color: orangered;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
+}
+.top-banner {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.single-exp {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+}
+#full-wab-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgb(38, 6, 216), rgb(5, 221, 5));
+  border-image-slice: 1;
+}
+#baby-web-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, #d806d8, rgb(0, 124, 128));
+  border-image-slice: 1;
+}
+section {
+  height: 500px;
+  margin-bottom: 150px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(224, 97, 11), rgb(238, 24, 8));
+  padding: 10px 24px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+}
+.link-button:hover {
+  background-image: linear-gradient(45deg, rgb(211, 8, 69), rgb(56, 12, 6));
+}
+.friends-area {
+  border: 6px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgb(60, 61, 1),
+    #f18110,
+    rgb(20, 4, 78),
+    rgb(6, 88, 3),
+    red
+  );
+  border-image-slice: 1;
+  border-radius: 20px;
+  margin: 25px;
+  margin-bottom: 150px;
+  background-image: url("images/image\ 14.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.friend-hade {
+  text-align: center;
+  color: rgb(148, 212, 29);
+}
+.pik1 {
+  border: 8px solid;
+  border-image: linear-gradient(
+    180deg,
+    #e8f715,
+    rgb(255, 0, 221),
+    red,
+    rgb(22, 57, 230)
+  );
+  border-image-slice: 1;
+}
+.pik2 {
+  border: 8px solid;
+  border-image: linear-gradient(
+    180deg,
+    rgb(51, 255, 0),
+    #e93f0b,
+    rgb(20, 4, 78),
+    rgb(227, 230, 22)
+  );
+  border-image-slice: 1;
+}
+.copyrihgt {
+  font-size: 1.5rem;
+  color: red;
+}
+.copy-aline {
+  text-align: center;
+  font-size: small;
+}
